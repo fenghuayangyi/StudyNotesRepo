@@ -128,7 +128,7 @@
 
     chmod -R 755 文件名|目录名
 
-    ![](picture\权限.jpg)
+    ![](.\picture\权限.jpg)
 
 * sudo 
 
