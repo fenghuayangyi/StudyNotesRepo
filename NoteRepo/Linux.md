@@ -128,7 +128,7 @@
 
     chmod -R 755 文件名|目录名
 
-    ![](.\picture\权限.jpg)
+    ![](picture\权限.jpg)
 
     ![](http://ww1.sinaimg.cn/large/007KrspHly1g69lxqc2jsj30bc03wt8v.jpg)
 
@@ -307,7 +307,7 @@
 
   * 末行模式：保存或退出文档，以及设置编辑环境。
 
-    ![img](file:///E:/ProjectFile/GitRepos/StudyNotesRepo/NoteRepo/picture/vim%E6%A8%A1%E5%BC%8F%E5%88%87%E6%8D%A2.jpg?lastModify=1566531557)
+    ![img](picture\vim模式切换.jpg)
 
     ![](http://ww1.sinaimg.cn/large/007KrspHly1g69lyhk9t9j30dr05kabx.jpg)
 
