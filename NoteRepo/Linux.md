@@ -25,11 +25,11 @@
   more filename (分屏显示文件内容，每次只显示一页内容)
 
   * 空格键	显示手册页的下一屏
-  * Enter 键	一次滚动手册页的一行
-  * b	回滚一屏
-  * f	前滚一屏
-  * q	退出
-  * /word	搜索 word 字符串
+  	 Enter 键	一次滚动手册页的一行
+  	 b	回滚一屏
+  	 f	前滚一屏
+  	 q	退出
+  	 /word	搜索 word 字符串
 
 * **创建文件** : touch filename 
 
@@ -42,13 +42,13 @@
 * 文本搜索 : grep
 
   * -n	显示匹配行及行号
-  * -v	显示不包含匹配文本的所有行（相当于求反）
-  * -i	忽略大小写
+  	 -v	显示不包含匹配文本的所有行（相当于求反）
+  	 -i	忽略大小写
 
 * 常用的两种模式查找\
 
   * ^a	行首，搜寻以 a 开头的行
-  * ke$	行尾，搜寻以 ke 结束的行
+  	 ke$	行尾，搜寻以 ke 结束的行
 
 ## 其他
 
@@ -130,6 +130,8 @@
 
     ![](picture\权限.jpg)
 
+    ![](http://ww1.sinaimg.cn/large/007KrspHly1g69lxqc2jsj30bc03wt8v.jpg)
+
 * sudo 
 
   sudo 命令用来以其他身份来执行命令，预设的身份为 root.
@@ -140,7 +142,7 @@
 
   * 添加组 : groupadd 组名	
   * 删除组 : groupdel 组名
-  * 确认组信息 : cat /etc/group	
+  	 确认组信息 : cat /etc/group	
   * 递归修改文件/目录的所属组 : chgrp -R 组名 文件/目录名
 
 * 用户管理
@@ -163,7 +165,7 @@
 
   * **查看用户信息**
 
-  * who		查看当前所有登录的用户列表
+  	 who		查看当前所有登录的用户列表
     whoami		查看当前登录用户的账户名
 
   * which 命令 ：查看执行命令所在位置
@@ -307,27 +309,29 @@
 
     ![img](file:///E:/ProjectFile/GitRepos/StudyNotesRepo/NoteRepo/picture/vim%E6%A8%A1%E5%BC%8F%E5%88%87%E6%8D%A2.jpg?lastModify=1566531557)
 
+    ![](http://ww1.sinaimg.cn/large/007KrspHly1g69lyhk9t9j30dr05kabx.jpg)
+
   * 命令模式中最常用的一些命令
 
     * dd	删除（剪切）光标所在整行
-    * 5dd	删除（剪切）从光标处开始的5行
-    * yy	复制光标所在整行
-    * 5yy	复制从光标处开始的5行
-    * u	撤销上一步的操作
-    * **p**	将之前删除（dd）或复制（yy）过的数据粘贴到光标后面
+    	 5dd	删除（剪切）从光标处开始的5行
+    	 yy	复制光标所在整行
+    	 5yy	复制从光标处开始的5行
+    	 u	撤销上一步的操作
+    	 **p**	将之前删除（dd）或复制（yy）过的数据粘贴到光标后面
     * shirft+g  跳转到最后一行
 
   * 末行模式常用的一些命令
 
     * :q!	强制退出（放弃对文档的修改内容）
-    * :wq!	强制保存退出
-    * :set nu	显示行号
-    * :set nonu	不显示行号
-    * :s/one/two	将当前光标所在行的第一个one替换成two
-    * :s/one/two/g	将当前光标所在行的所有one替换成two
-    * :%s/one/two/g	将全文中的所有one替换成two
-    * ?字符串	在文本中从下至上搜索该字符串
-    * /字符串	在文本中从上至下搜索该字符串
+    	 :wq!	强制保存退出
+    	 :set nu	显示行号
+    	 :set nonu	不显示行号
+    	 :s/one/two	将当前光标所在行的第一个one替换成two
+    	 :s/one/two/g	将当前光标所在行的所有one替换成two
+    	 :%s/one/two/g	将全文中的所有one替换成two
+    	 ?字符串	在文本中从下至上搜索该字符串
+    	 /字符串	在文本中从上至下搜索该字符串
 
 
 
