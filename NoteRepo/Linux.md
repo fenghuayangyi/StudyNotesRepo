@@ -128,7 +128,7 @@
 
     chmod -R 755 文件名|目录名
 
-    ![](picture\权限.jpg)
+    ![](.\picture\权限.jpg)
 
     ![](http://ww1.sinaimg.cn/large/007KrspHly1g69lxqc2jsj30bc03wt8v.jpg)
 
